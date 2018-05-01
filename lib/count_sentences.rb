@@ -18,5 +18,4 @@ class String
     num = self.split("/[?.!]/")
     num.count
   end
-  sentence_count
 end
