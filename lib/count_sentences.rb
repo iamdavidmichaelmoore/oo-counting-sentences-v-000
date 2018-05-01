@@ -15,9 +15,7 @@ class String
   end
 
   def count_sentences
-    sentence_count = 0
-    if self.end_with?(/[?!.]/)
-      sentence_count += 1
+    self.split("/[?.!]/")
   end
   sentence_count
 end
