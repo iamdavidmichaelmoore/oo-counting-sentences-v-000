@@ -19,4 +19,5 @@ class String
     if self.end_with?(/[?!.]/)
       sentence_count += 1
   end
+  sentence_count
 end
